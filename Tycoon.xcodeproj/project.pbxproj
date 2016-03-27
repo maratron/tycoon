@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0391B7651CA75E3200575BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391B7641CA75E3200575BFC /* AppDelegate.swift */; };
+		0391B7671CA75E3200575BFC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391B7661CA75E3200575BFC /* GameScene.swift */; };
+		0391B7691CA75E3200575BFC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0391B7681CA75E3200575BFC /* GameScene.sks */; };
+		0391B76B1CA75E3200575BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0391B76A1CA75E3200575BFC /* Assets.xcassets */; };
+		0391B76E1CA75E3200575BFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0391B76C1CA75E3200575BFC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0391B7611CA75E3200575BFC /* Tycoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tycoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0391B7641CA75E3200575BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0391B7661CA75E3200575BFC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0391B7681CA75E3200575BFC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0391B76A1CA75E3200575BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0391B76D1CA75E3200575BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0391B76F1CA75E3200575BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0391B75E1CA75E3200575BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0391B7581CA75E3200575BFC = {
+			isa = PBXGroup;
+			children = (
+				0391B7631CA75E3200575BFC /* Tycoon */,
+				0391B7621CA75E3200575BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0391B7621CA75E3200575BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0391B7611CA75E3200575BFC /* Tycoon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0391B7631CA75E3200575BFC /* Tycoon */ = {
+			isa = PBXGroup;
+			children = (
+				0391B7641CA75E3200575BFC /* AppDelegate.swift */,
+				0391B7661CA75E3200575BFC /* GameScene.swift */,
+				0391B7681CA75E3200575BFC /* GameScene.sks */,
+				0391B76A1CA75E3200575BFC /* Assets.xcassets */,
+				0391B76C1CA75E3200575BFC /* MainMenu.xib */,
+				0391B76F1CA75E3200575BFC /* Info.plist */,
+			);
+			path = Tycoon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0391B7601CA75E3200575BFC /* Tycoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0391B7721CA75E3200575BFC /* Build configuration list for PBXNativeTarget "Tycoon" */;
+			buildPhases = (
+				0391B75D1CA75E3200575BFC /* Sources */,
+				0391B75E1CA75E3200575BFC /* Frameworks */,
+				0391B75F1CA75E3200575BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tycoon;
+			productName = Tycoon;
+			productReference = 0391B7611CA75E3200575BFC /* Tycoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0391B7591CA75E3200575BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sizeof.io;
+				TargetAttributes = {
+					0391B7601CA75E3200575BFC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0391B75C1CA75E3200575BFC /* Build configuration list for PBXProject "Tycoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0391B7581CA75E3200575BFC;
+			productRefGroup = 0391B7621CA75E3200575BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0391B7601CA75E3200575BFC /* Tycoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0391B75F1CA75E3200575BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0391B76B1CA75E3200575BFC /* Assets.xcassets in Resources */,
+				0391B7691CA75E3200575BFC /* GameScene.sks in Resources */,
+				0391B76E1CA75E3200575BFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0391B75D1CA75E3200575BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0391B7671CA75E3200575BFC /* GameScene.swift in Sources */,
+				0391B7651CA75E3200575BFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0391B76C1CA75E3200575BFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0391B76D1CA75E3200575BFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0391B7701CA75E3200575BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0391B7711CA75E3200575BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0391B7731CA75E3200575BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tycoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Tycoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0391B7741CA75E3200575BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tycoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Tycoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0391B75C1CA75E3200575BFC /* Build configuration list for PBXProject "Tycoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0391B7701CA75E3200575BFC /* Debug */,
+				0391B7711CA75E3200575BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0391B7721CA75E3200575BFC /* Build configuration list for PBXNativeTarget "Tycoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0391B7731CA75E3200575BFC /* Debug */,
+				0391B7741CA75E3200575BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0391B7591CA75E3200575BFC /* Project object */;
+}
