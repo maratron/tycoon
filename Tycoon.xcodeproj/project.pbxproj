@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0391B7651CA75E3200575BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391B7641CA75E3200575BFC /* AppDelegate.swift */; };
 		0391B7671CA75E3200575BFC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0391B7661CA75E3200575BFC /* GameScene.swift */; };
-		0391B7691CA75E3200575BFC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0391B7681CA75E3200575BFC /* GameScene.sks */; };
 		0391B76B1CA75E3200575BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0391B76A1CA75E3200575BFC /* Assets.xcassets */; };
 		0391B76E1CA75E3200575BFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0391B76C1CA75E3200575BFC /* MainMenu.xib */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		0391B7611CA75E3200575BFC /* Tycoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tycoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0391B7641CA75E3200575BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0391B7661CA75E3200575BFC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		0391B7681CA75E3200575BFC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		0391B76A1CA75E3200575BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0391B76D1CA75E3200575BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0391B76F1CA75E3200575BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +52,45 @@
 		0391B7631CA75E3200575BFC /* Tycoon */ = {
 			isa = PBXGroup;
 			children = (
+				0391B7781CA75E7000575BFC /* Classes */,
+				0391B7771CA75E6800575BFC /* Nodes */,
+				0391B7761CA75E6300575BFC /* Scenes */,
 				0391B7641CA75E3200575BFC /* AppDelegate.swift */,
-				0391B7661CA75E3200575BFC /* GameScene.swift */,
-				0391B7681CA75E3200575BFC /* GameScene.sks */,
+				0391B7751CA75E3900575BFC /* Support */,
+			);
+			path = Tycoon;
+			sourceTree = "<group>";
+		};
+		0391B7751CA75E3900575BFC /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				0391B76A1CA75E3200575BFC /* Assets.xcassets */,
 				0391B76C1CA75E3200575BFC /* MainMenu.xib */,
 				0391B76F1CA75E3200575BFC /* Info.plist */,
 			);
-			path = Tycoon;
+			name = Support;
+			sourceTree = "<group>";
+		};
+		0391B7761CA75E6300575BFC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0391B7661CA75E3200575BFC /* GameScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0391B7771CA75E6800575BFC /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		0391B7781CA75E7000575BFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0391B76B1CA75E3200575BFC /* Assets.xcassets in Resources */,
-				0391B7691CA75E3200575BFC /* GameScene.sks in Resources */,
 				0391B76E1CA75E3200575BFC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
